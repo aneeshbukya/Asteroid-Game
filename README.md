@@ -5,3 +5,4 @@ Our simple Asteroids game pits a lone rocket ship against a swarm of asteroids. 
 Each asteroid and the rocket are simulated using individual POSIX threads (Pthreads). Asteroids move horizontally across the window at specific positions; the rocket begins at the bottom of the window and moves in response to keyboard input from the user playing the game. The rocket is represented with the ASCII 'A' character.
 
 Should the rocket and an asteroid attempt to occupy the same character position on the screen at the same time, a collision occurs. When this happens, the rocket explodes in a fiery display. (Fortunately, as the rocket is being controlled remotely via keyboard input, no lives will be lost should this happen.) A support function has been supplied to provide the necessary special effects for this.
+
